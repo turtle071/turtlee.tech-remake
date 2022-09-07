@@ -7,8 +7,8 @@ export default function Home() {
         <link rel="canonical" href="https://turtlee.tech/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/shortcurticon.png" />
-        <meta property="og:image" content="/T.png"/>
-        <meta name="description" content="My personal website :D"/>
+        <meta property="og:image" content="/T.png" />
+        <meta name="description" content="My personal website :D" />
         <title>Turtle</title>
       </Head>
     <div className="flex-col">
@@ -23,7 +23,7 @@ export default function Home() {
                 <div className="pt-8 border-t border-zinc-800">
                   <p className="text-gray-200 text-xs pb-2"><strong>ABOUT ME</strong></p>
                   <p className="span text-white text-xs">Front End Developer<br /></p>
-                  <span className=" bg-zinc-800 px-2 py-1 rounded-md text-zinc-300 font-mono text-xs">Only know that i know nothing.</span>
+                  <span className=" bg-zinc-800 px-2 py-1 rounded-md text-zinc-300 font-mono text-[11px]">Only know that i know nothing.</span>
                 </div>
                 <div className="pt-8 pb-4">
                   <p className="text-white text-xs"><strong>ROLES</strong></p>
