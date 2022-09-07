@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
+
+body {
+    background-color: #1D1E28;
+}
+
+.span { 
+    box-shadow: .6em 0 0 #313131;
+    margin: 0rem 0rem;
+    width: 17ch;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: caret .5s step-end infinite alternate,
+               type 5s steps(23, end)
+
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+  
+  }
+  @keyframes caret { 
+    50% { 
+      box-shadow: .6em 0 0 transparent;
+    }
+  }
