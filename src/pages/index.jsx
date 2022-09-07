@@ -4,9 +4,10 @@ export default function Home() {
   return (<main className="flex mx-auto items-center justify-center pt-16 ">
         <Head>
         <meta charSet="UTF-8" />
-        <link rel="canonical" href="" />
+        <link rel="canonical" href="https://turtlee.tech/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="shortcut icon" href="" />
+        <link rel="shortcut icon" href="/shortcurticon.png" />
+        <meta property="og:image" content="icon.gif"/>
         <title>Turtle</title>
       </Head>
     <div className="flex-col">
@@ -35,25 +36,25 @@ export default function Home() {
                   <div className="pt-6 border-t-[0.5px] border-zinc-800 pb-6">
                   <nav className="">
                     <div>
-                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[225px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="https://github.com/turtle071/"> 
+                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[250px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="https://github.com/turtle071/"> 
                     <img className=" invert h-[22px] pt-[6px] pl-2 cursor-pointer" src="/github.png"/>
-                      <button className="text-zinc-200 pr-[100px] pl-1 text-[12px] ">
+                      <button className="text-zinc-200 pr-[135px] pl-1 text-[12px] ">
                       <strong>turtle071 </strong> </button>
                       <img className="invert h-[26px]" src="/ancora.png" />
                     </a>
                     </div>
                     <div className="pt-2">
-                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[225px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="https://discord.com/users/335411366041092096"> 
+                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[250px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="https://discord.com/users/335411366041092096"> 
                     <img className=" h-[22px] pt-[6px] pl-2 cursor-pointer" src="/discord.png"/>
-                      <button className="text-zinc-200 pr-[80px] pl-1 text-[12px] ">
+                      <button className="text-zinc-200 pr-[110px] pl-1 text-[12px] ">
                       <strong>turtlee#3006 </strong> </button>
                       <img className="invert h-[26px]" src="/ancora.png" />
                     </a>
                     </div>
                     <div className="pt-2">
-                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[225px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="mailto:support@turtles.studio"> 
+                    <a className="flex rounded-md bg-zinc-800 h-[30px] w-[250px] pt-[2px] pb-[1px] gap-1 hover:bg-zinc-600" href="mailto:support@turtles.studio"> 
                     <img className=" h-[22px] pt-[6px] pl-2 cursor-pointer" src="/mail.png"/>
-                      <button className="text-zinc-200 pr-[116px] pl-1 text-[12px] ">
+                      <button className="text-zinc-200 pr-[150px] pl-1 text-[12px] ">
                       <strong>e-mail </strong> </button>
                       <img className="invert h-[26px]" src="/ancora.png" />
                     </a>
@@ -61,6 +62,11 @@ export default function Home() {
                   </nav>
                   </div>
           </div>
-     </div>        
+            <div>
+            <footer className="text-white text-center pt-[60px] text-xs">
+              <p> Site feito por Turtle</p>
+            </footer> 
+           </div>     
+     </div>
     </main>)
 }

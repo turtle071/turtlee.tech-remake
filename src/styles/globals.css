@@ -2,10 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Anek+Telugu&display=swap');
-
 body {
     background-color: #1D1E28;
+    font-family: 'Whitney';
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@font-face {
+font-family: 'Whitney';
+src: url('https://cdn.skyra.pw/whitney-font/v2/Book.woff') format('woff');
+font-weight: 400;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Whitney';
+src: url('https://cdn.skyra.pw/whitney-font/v2/Medium.woff') format('woff');
+font-weight: 500;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Whitney';
+src: url('https://cdn.skyra.pw/whitney-font/v2/Semibold.woff') format('woff');
+font-weight: 600;
+font-display: swap;
+}
+
+@font-face {
+font-family: 'Whitney';
+src: url('https://cdn.skyra.pw/whitney-font/v2/Bold.woff') format('woff');
+font-weight: 700;
+font-display: swap;
 }
 
 .span { 
@@ -30,3 +61,4 @@ body {
       box-shadow: .6em 0 0 transparent;
     }
   }
+
