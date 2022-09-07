@@ -7,7 +7,7 @@ export default function Home() {
         <link rel="canonical" href="https://turtlee.tech/" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="shortcut icon" href="/shortcurticon.png" />
-        <meta property="og:image" content="icon.gif"/>
+        <meta property="og:image" content="/T.png"/>
         <title>Turtle</title>
       </Head>
     <div className="flex-col">
