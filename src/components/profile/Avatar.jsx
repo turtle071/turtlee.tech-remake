@@ -6,7 +6,7 @@ export default function Avatar() {
         <img className="rounded-full border-8 border-zinc-900 h-24" src="/icon.gif" alt="icon" />
         </div>
        </div>
-            <div className="pl-4 pt-[58px] pr-4 bg-zinc-900 rounded-t-2xl">
+            <div className="pl-4 pt-[58px] pr-4 bg-zinc-900">
             <h1 className="text-white text-lg"><strong>Emanuel Santos</strong></h1>
             <p className="text-zinc-400 pb-4 text-sm"><strong>Tutlee#3006</strong></p>
             </div>
