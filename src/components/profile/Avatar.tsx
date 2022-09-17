@@ -47,13 +47,11 @@ export default function Avatar(data: Data | undefined) {
           </div>
         </div>
       </div>
-      <div className="pl-4 pt-[58px] pr-4 bg-zinc-900">
-        <h1 className="text-white text-lg">
-          <strong>Emanuel Santos</strong>
+      <div className="pl-4 pt-[58px] pr-4 bg-zinc-900 pb-4">
+        <h1 className="text-white text-[20px] font-bold">
+          <span>Turtlee</span>
+          <span className="text-zinc-400">#3006</span>
         </h1>
-        <p className="text-zinc-400 pb-4 text-sm">
-          <strong>Tutlee#3006</strong>
-        </p>
       </div>
     </section>
   );
