@@ -10,7 +10,7 @@ export default function Profile() {
   return (
     <div className="flex-col">
       {Avatar(data)}
-      <div className="pl-4 pr-4 bg-zinc-900 rounded-b-2xl">
+      <div className="pl-5 pr-5 bg-zinc-900 rounded-b-[10px]">
         <About />
         <Roles />
         <Connections />

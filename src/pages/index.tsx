@@ -4,7 +4,7 @@ import Profile from '../components/profile/Profile';
 
 export default function Home() {
   return (
-    <main className="flex mx-auto items-center justify-center pt-16 ">
+    <main className="flex mx-auto items-center justify-center pt-16 h-screen w-screen ">
       <Head>
         <meta charSet="UTF-8" />
         <link rel="canonical" href="https://turtlee.tech/" />

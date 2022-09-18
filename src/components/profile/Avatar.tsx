@@ -4,7 +4,7 @@ import { Status } from '../discord/Status';
 export default function Avatar(data: Data | undefined) {
   return (
     <section>
-      <div className="bg-[url('/fundo.gif')] rounded-t-2xl pr-[2px] h-[120px]">
+      <div className="bg-[url('/fundo.gif')] rounded-t-[10px] pr-[10px] h-[120px]">
         <div className="text-center pl-5 pr-40 pt-20">
           <div role="img" aria-label="avatar" aria-hidden="false" className="w-[92px] h-[92px] border-[6px] relative rounded-full border-zinc-900">
             <svg width="92" height="80" viewBox="0 0 92 80" className="absolute">
@@ -19,22 +19,22 @@ export default function Avatar(data: Data | undefined) {
                 <div className="grid w-full h-full">
                   <picture>
                     <source
-                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.webp?size=128,
-            https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.webp?size=256 x2,
-            https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.webp?size=512 x4"
+                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=128,
+                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=256 x2,
+                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=512 x4"
                       type="image/webp"
                     />
                     <source
-                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.png?size=128,
-            https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.png?size=256 x2,
-            https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.png?size=512 x4"
+                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=128,
+                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=256 x2,
+                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=512 x4"
                       type="image/png"
                     />
                     <img
-                      src={`https://cdn.discordapp.com/avatars/335411366041092096/5bdfb41b7f13e50e3bade7dca29d9ad1.webp?size=80`}
+                      src={`https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=80`}
                       alt="avatar"
-                      width="80"
-                      height="80"
+                      width="85"
+                      height="85"
                       aria-hidden="true"
                       draggable="false"
                       className="block"

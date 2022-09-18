@@ -4,11 +4,10 @@ export default function About() {
       <p className="text-gray-200 text-[12px] pb-[8px]">
         <strong>ABOUT ME</strong>
       </p>
-      <p className="span text-white text-xs">
-        Front End Developer
-        <br />
-      </p>
-      <span className=" bg-zinc-800 px-2 py-1 rounded-md text-zinc-300 font-mono text-[11px]">Only know that i know nothing.</span>
+      <a>
+        <p className="text-white"></p>
+      </a>
+      <span className="text-white text-[14px]">⏳ Time is a valuable thing.</span>
     </div>
   );
 }
