@@ -6,7 +6,6 @@ import Roles from './Roles';
 
 export default function Profile() {
   const data = useLanyardWs('335411366041092096');
-
   return (
     <div className="flex-col">
       {Avatar(data)}

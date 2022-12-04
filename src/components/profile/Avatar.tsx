@@ -19,19 +19,19 @@ export default function Avatar(data: Data | undefined) {
                 <div className="grid w-full h-full">
                   <picture>
                     <source
-                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=128,
-                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=256 x2,
-                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=512 x4"
+                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.webp?size=128,
+                      https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.webp?size=256 x2,
+                      https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.webp?size=512 x4"
                       type="image/webp"
                     />
                     <source
-                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=128,
-                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=256 x2,
-                      https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.png?size=512 x4"
+                      srcSet="https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.png?size=128,
+                      https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.png?size=256 x2,
+                      https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.png?size=512 x4"
                       type="image/png"
                     />
                     <img
-                      src={`https://cdn.discordapp.com/avatars/335411366041092096/24fb64abd900b5d3e5cdf96c09fae838.webp?size=80`}
+                      src={`https://cdn.discordapp.com/avatars/335411366041092096/bad714ac25d1af212d82cb1df9789906.?size=80`}
                       alt="avatar"
                       width="85"
                       height="85"
